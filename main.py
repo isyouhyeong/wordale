@@ -14,24 +14,6 @@ def get_answer():
 app.mount("/", StaticFiles(directory="static",html=True), name="static")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # class Item(BaseModel):
 #     id:int
 #     content:str
