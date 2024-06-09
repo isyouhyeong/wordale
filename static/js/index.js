@@ -44,7 +44,7 @@ function appStart() {
 
     // 서버에서 정답을 받아오는
     const 응답 = await fetch("/answer");
-    const 정답_객체 = await 응답.json();
+    const 정답 = await 응답.json();
 
     for (let i = 0; i < 5; i++) {
       const block = document.querySelector(
